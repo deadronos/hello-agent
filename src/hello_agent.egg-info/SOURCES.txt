@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/hello_agent/__init__.py
+src/hello_agent/cli.py
+src/hello_agent/config.py
+src/hello_agent/ollama_setup.py
+src/hello_agent.egg-info/PKG-INFO
+src/hello_agent.egg-info/SOURCES.txt
+src/hello_agent.egg-info/dependency_links.txt
+src/hello_agent.egg-info/entry_points.txt
+src/hello_agent.egg-info/requires.txt
+src/hello_agent.egg-info/top_level.txt

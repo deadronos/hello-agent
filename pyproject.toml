@@ -1,0 +1,19 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "Local AI CLI powered by Ollama"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+hello-agent = "hello_agent.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
