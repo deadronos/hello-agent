@@ -12,6 +12,11 @@ Local AI CLI powered by Ollama.
 ```bash
 pip install -e .
 ```
+Load virtual environment if not already active:
+
+```bash
+source .venv/bin/activate
+```
 
 ## Default model
 
